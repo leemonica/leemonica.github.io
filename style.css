@@ -1,0 +1,73 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 1.5vw;
+  letter-spacing: 0.04em;
+  line-height: 1.5em;
+
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(217deg, rgba(255, 140, 94, 0.8), rgba(255, 140, 94,0) 50%),
+  linear-gradient(127deg, rgba(138, 248, 64, 0.8), rgba(138, 248, 64,0) 70%),
+  linear-gradient(336deg, rgba(140, 132, 255, 0.8), rgba(140, 132, 255,0) 70%);
+}
+
+h1 {
+  font-family: "Yatra One", cursive;
+  font-size: 5vw;
+  line-height: 1;
+  letter-spacing: 0;
+  margin: 0 0 0 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #203827;
+}
+
+a:hover {
+  text-decoration: underline;
+  letter-spacing: 2px; 
+}
+
+.content-box {
+  max-width: 45%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 2.5vw;
+  }
+
+  h1 {
+    font-size: 6.5vw;
+  }
+  
+  .content-box {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 2vh;
+  }
+
+  h1 {
+    font-size: 4vh;
+  }
+  
+  .content-box {
+    max-width: 90%;
+  }
+}
+

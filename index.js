@@ -53,7 +53,7 @@ function getCursorXY(e) {
   //  "linear-gradient(" + degrees + "deg, rgba(255, 140, 94, 0.8), rgba(255, 140, 94,0) 70%),linear-gradient(127deg, rgba(138, 248, 64, 0.8), rgba(138, 248, 64,0) 70%),linear-gradient(336deg, rgba(140, 132, 255, 0.8), rgba(140, 132, 255,0) 70%)"; // replace "45deg" in CSS gradient with new "#deg"
 
   const degreesValue =
-  "linear-gradient(" + degrees + "deg, rgba(255, 140, 94, 0.8), rgba(255, 140, 94,0) 70%),linear-gradient(" + degrees3 + "deg, rgba(138, 248, 64, 0.8), rgba(138, 248, 64,0) 70%),linear-gradient(" + degrees2 + "deg, rgba(140, 132, 255, 0.8), rgba(140, 132, 255,0) 70%)"; // replace "45deg" in CSS gradient with new "#deg"
+  "linear-gradient(" + degrees + "deg, rgba(79, 187, 255, 0.8), rgba(79, 187, 255, 0) 70%),linear-gradient(" + degrees3 + "deg, rgba(20, 233, 255, 0.8), rgba(20, 233, 255, 0) 70%),linear-gradient(" + degrees2 + "deg, rgba(255,255,255, 0.8), rgba(255,255,255, 0) 70%)"; // replace "45deg" in CSS gradient with new "#deg"
 
   // console.log(degreesValue); //checking to see that angle is being calculated
 
